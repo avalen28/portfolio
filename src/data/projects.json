@@ -1,0 +1,32 @@
+[
+{
+    "img":"imagen profile",
+    "name":"Without Signals",
+    "definition": "esta app trata de...",
+    "stack": "JS, CSS, HTML",
+    "video":"aquí el video",
+    "FrontendDeploy":"Frontend Deploy",
+    "FrontendGit":"Frontend Git",
+    "BackendGit":"Backend Git"
+},
+{
+    "img":"imagen profile",
+    "name":"Sushi Lovers",
+    "definition": "esta app trata de...",
+    "stack": "JS, CSS, HTML",
+    "video":"aquí el video",
+    "FrontendDeploy":"Frontend Deploy",
+    "FrontendGit":"Frontend Git",
+    "BackendGit":"Backend Git"
+},
+{
+    "img":"imagen profile",
+    "name":"Walk Away",
+    "definition": "esta app trata de...",
+    "stack": "JS, CSS, HTML",
+    "video":"aquí el video",
+    "FrontendDeploy":"Frontend Deploy",
+    "FrontendGit":"Frontend Git",
+    "BackendGit":"Backend Git"
+}
+]
