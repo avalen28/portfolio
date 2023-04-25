@@ -1,30 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ProjectCard = () => {
+const ProjectCard = ({ project }) => {
+  const {
+    img,
+    name,
+    definition,
+    stack,
+    video,
+    FrontendDeploy,
+    FrontendGit,
+    BackendGit,
+  } = project;
   return (
     <div className="project-card-container">
       <div className="project-card-header">
-        <img src="" alt="project-profile" />
-        <h1>de qué va</h1>
+        <img src={img} alt="project-profile" />
+        <h1>{name}</h1>
+        <h1>{definition}</h1>
       </div>
       <div className="project-card-tech">
         <h3>explicación a nivel tech</h3>
         <div className="project-card-stack">
-          <p>JS</p>
-          <p>CSS</p>
-          <p>HTML5</p>
+          {stack.map((elem, i) => (
+            <p key={elem[i]}>{elem}</p>
+          ))}
         </div>
       </div>
       <div className="project-card-views">
-        <p>gif</p>
-        <p>gif</p>
-        <p>gif</p>
+        <p>{video}</p>
       </div>
       <div className="project-card-links">
-        <Link to={"ruta a llevar"}>Frontend Deploy</Link>
-        <Link to={"ruta a llevar"}>Frontend Github</Link>
-        <Link to={"ruta a llevar"}>Backend Github</Link>
+        <Link to={FrontendDeploy}>Frontend Deploy</Link>
+        <Link to={FrontendGit}>Frontend Github</Link>
+        <Link to={BackendGit}>Backend Github</Link>
       </div>
     </div>
   );
