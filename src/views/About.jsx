@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about-continer">
       <div className="about-header">
-        <article>
+        <article className="article-intro">
           For the last 8+ years I've been working as a bulding engineer for the
           city hall of Barcelona, reviewing amazing projects from small
           restaurants to Vall d'Hebron Hospital. <br />
@@ -18,15 +18,11 @@ const About = () => {
           something together!
         </article>
       </div>
-      <div className="about-stack">
-        <div className="frontend-stack">
-          <img src="/images/html-5.png" alt="html5" />
-          <img src="/images/css3.png" alt="html5" />
-        </div>
-        <div className="backend-stack">
-          <img src="" alt="block-stuff" />
-        </div>
-      </div>
+      <img
+        src="/images/background.png"
+        alt="background"
+        className="background-img"
+      />
     </div>
   );
 };

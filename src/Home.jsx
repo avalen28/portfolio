@@ -3,14 +3,25 @@ import React from "react";
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="presentation">
-        <h1>Hello There! I'm Alberto</h1>
-        <h2>A Full-Stack Web Developer</h2>
+      <div className="info">
+        <div className="presentation">
+          <h1>Hello There! I'm Alberto</h1>
+          <h2>A Full-Stack Web Developer</h2>
+        </div>
+        <div className="about-stack">
+          <div className="frontend-stack">
+            <img src="/images/html-5.png" alt="html5" />
+            <img src="/images/css3.png" alt="html5" />
+          </div>
+          <div className="backend-stack">
+            <img src="" alt="block-stuff" />
+          </div>
+        </div>
       </div>
       <img
-        src="/images/background.png"
-        alt="background"
-        className="background-img"
+        src="/images/Maurice_Beverly_the_Hormone_Monster_Icon-removebg-preview.png"
+        alt=""
+        className="profile-img"
       />
     </div>
   );
