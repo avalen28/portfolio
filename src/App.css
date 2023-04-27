@@ -81,3 +81,40 @@ a {
   margin-top: 50px;
   color: darkgray;
 }
+.about-continer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-header {
+  width: 50%;
+  margin-top: 70px;
+}
+.about-header article {
+  padding: 20px;
+  font-size: 20px;
+  font-style: oblique;
+}
+.about-stack {
+  width: 80%;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+.frontend-stack {
+  width: 50%;
+  height: 50vh;
+  background-color: #a9a9a954;
+  border-radius: 20px;
+}
+.frontend-stack img {
+  width: 50px;
+  background: none;
+}
+.backend-stack {
+  width: 50%;
+  height: 50vh;
+  background-color: #607d8b73;
+  border-radius: 20px;
+}
