@@ -112,21 +112,36 @@ a {
   width: 80%;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
   margin-top: 50px;
+  align-items: center;
+}
+
+.frontend-stack img,
+.backend-stack img,
+.other-stack img {
+  width: 50px;
+  height: 80%;
+  background: none;
+  object-fit: contain;
 }
 .frontend-stack {
-  width: 50%;
-  background-color: #a9a9a954;
-  border-radius: 20px;
-}
-.frontend-stack img {
-  width: 50px;
-  background: none;
+  background-color: #545252de;
 }
 .backend-stack {
-  width: 50%;
-
+  background-color: #a9a9a954;
+}
+.other-stack {
   background-color: #607d8b73;
+}
+
+.frontend-stack,
+.backend-stack,
+.other-stack {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
   border-radius: 20px;
+  height: 65px;
+  align-items: center;
 }

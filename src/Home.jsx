@@ -11,10 +11,21 @@ const Home = () => {
         <div className="about-stack">
           <div className="frontend-stack">
             <img src="/images/html-5.png" alt="html5" />
-            <img src="/images/css3.png" alt="html5" />
+            <img src="/images/css3.png" alt="css3" />
+            <img src="/images/js.png" alt="javaScript" />
+            <img src="/images/react.png" alt="react" />
+            <img src="/images/hbs.png" alt="handlebars" />
           </div>
           <div className="backend-stack">
-            <img src="" alt="block-stuff" />
+            <img src="/images/express.png" alt="express.js" />
+            <img src="/images/node.png" alt="node.js" />
+            <img src="/images/mongoDB.png" alt="mongoDB" />
+          </div>
+          <div className="other-stack">
+            <img src="/images/git.png" alt="Git" />
+            <img src="/images/github.png" alt="github.js" />
+            <img src="/images/postman.png" alt="postman" />
+            <img src="/images/visualcode.png" alt="visualcode" />
           </div>
         </div>
       </div>
