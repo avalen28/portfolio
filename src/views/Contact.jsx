@@ -1,24 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
     <div className="contact-container">
       <h3>Contact with me</h3>
       <div className="contact-info">
-        <img src="" alt="LinkedIn" />
-        <Link>https://www.linkedin.com/in/alberto-valenzuela-munoz/</Link>
+        <img src="/images/linkedin.png" alt="LinkedIn" />
+        <Link to={"https://www.linkedin.com/in/alberto-valenzuela-munoz/"}>
+          Alberto Valenzuela
+        </Link>
       </div>
       <div className="contact-info">
-        <img src="" alt="GitHub" />
-        <Link>https://github.com/avalen28</Link>
+        <img src="/images/github.png" alt="GitHub" />
+        <Link to={"https://github.com/avalen28"}>@avalen28</Link>
       </div>
       <div className="contact-info">
-        <img src="" alt="gmail" />
+        <img src="/images/mail.png" alt="mail" />
         <p>avalen28@gmail.com</p>
       </div>
       <div className="contact-info">
-        <img src="" alt="phone" />
+        <img src="/images/telephone.png" alt="telephone" />
         <p>+34 665-611-219</p>
       </div>
     </div>
