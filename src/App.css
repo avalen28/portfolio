@@ -64,8 +64,8 @@ a {
   color: darkgray;
 }
 .background-img {
-  width: 50%;
-  object-fit: contain;
+  width: 31%;
+  object-fit: cover;
 }
 .profile-img {
   width: 300px;
@@ -98,15 +98,18 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 120px;
 }
 .about-header {
-  width: 50%;
+  width: 30%;
   margin-top: 70px;
 }
 .article-intro {
   padding: 20px;
   font-size: 20px;
-  font-style: oblique;
+  text-align: justify;
 }
 .about-stack {
   width: 80%;
