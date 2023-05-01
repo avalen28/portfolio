@@ -8,6 +8,12 @@
   color: antiquewhite;
   background-color: rgba(16, 33, 49, 255);
 }
+.profile-img {
+  border-radius: 100%;
+  height: 380px;
+  width: 380px;
+  object-fit: cover;
+}
 .App {
   background-color: rgba(16, 33, 49, 255);
   width: 100%;
@@ -73,10 +79,7 @@ a {
   width: 31%;
   object-fit: cover;
 }
-.profile-img {
-  width: 300px;
-  object-fit: contain;
-}
+
 .project-container {
   width: 90%;
   height: auto;
@@ -143,7 +146,7 @@ a {
 .frontend-stack,
 .backend-stack,
 .other-stack {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
   border-radius: 20px;

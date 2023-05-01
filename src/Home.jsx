@@ -29,11 +29,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <img
-        src="/images/Maurice_Beverly_the_Hormone_Monster_Icon-removebg-preview.png"
-        alt=""
-        className="profile-img"
-      />
+      <img src="/images/Alberto.jpg" alt="" className="profile-img" />
     </div>
   );
 };
