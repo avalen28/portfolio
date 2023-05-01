@@ -90,7 +90,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 .project-header button {
   border: none;
@@ -273,7 +273,9 @@ a {
   background: none;
 }
 .project-card-views img {
-  width: 40%;
+  width: 65%;
+  height: 300px;
+  object-fit: contain;
   display: flex;
   justify-content: center;
   background: none;

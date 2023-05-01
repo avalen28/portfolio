@@ -12,9 +12,9 @@
 {
     "img":"/images/sushi-lovers.png",
     "name":"Sushi Lovers - mobile app",
-    "definition": "A food app where you can order Japanese cuisine from restaurants, similar to the Just Eat app.",
-    "stack": ["JS", "CSS", "HTML","MongoDB", "Node.js", "Express.js"],
-    "video":"aquí el video",
+    "definition": "This is a project developed by Alberto Valenzuela and Gerard Guasch. A food app where you can order Japanese cuisine from restaurants, similar to the Just Eat app.",
+    "stack": ["JS", "CSS", "HTML","handlebars","MongoDB", "Node.js", "Express.js"],
+    "video":"/videos/sushi-lovers.gif",
     "FrontendDeploy":"https://sushilovers-app.fly.dev/",
     "FrontendGit":"https://github.com/Sushi-lovers-Ironhack/Sushi-lovers",
     "BackendGit":false
