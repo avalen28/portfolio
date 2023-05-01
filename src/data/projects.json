@@ -1,32 +1,32 @@
 [
 {
-    "img":"imagen profile",
+    "img":"/images/without-signals.png",
     "name":"Without Signals",
-    "definition": "esta app trata de...",
+    "definition": "A game where you control one character and fight turn-based battles against aliens.",
     "stack": ["JS", "CSS", "HTML"],
-    "video":"aquí el video",
-    "FrontendDeploy":"Frontend Deploy",
-    "FrontendGit":"Frontend Git",
-    "BackendGit":"Backend Git"
+    "video":"/videos/without-signals.gif",
+    "FrontendDeploy":"https://avalen28.github.io/Without-Signals-game/",
+    "FrontendGit":"https://github.com/avalen28/Without-Signals-game",
+    "BackendGit":false
 },
 {
-    "img":"imagen profile",
-    "name":"Sushi Lovers",
-    "definition": "esta app trata de...",
-    "stack": ["JS", "CSS", "HTML","MongoDB"],
+    "img":"/images/sushi-lovers.png",
+    "name":"Sushi Lovers - mobile app",
+    "definition": "A food app where you can order Japanese cuisine from restaurants, similar to the Just Eat app.",
+    "stack": ["JS", "CSS", "HTML","MongoDB", "Node.js", "Express.js"],
     "video":"aquí el video",
-    "FrontendDeploy":"Frontend Deploy",
-    "FrontendGit":"Frontend Git",
-    "BackendGit":"Backend Git"
+    "FrontendDeploy":"https://sushilovers-app.fly.dev/",
+    "FrontendGit":"https://github.com/Sushi-lovers-Ironhack/Sushi-lovers",
+    "BackendGit":false
 },
 {
-    "img":"imagen profile",
-    "name":"Walk Away",
-    "definition": "esta app trata de...",
-    "stack": ["JS", "CSS", "React","Postman"],
-    "video":"aquí el video",
-    "FrontendDeploy":"Frontend Deploy",
-    "FrontendGit":"Frontend Git",
-    "BackendGit":"Backend Git"
+    "img":"/images/walk-away.png",
+    "name":"Walk Away - mobile app",
+    "definition": "Learn trekking with a gaming twist. Gain experience points and level up to unlock new routes.",
+    "stack": ["JS", "CSS", "HTML","MongoDB", "Node.js", "Express.js", "React","Postman","OpenWeather.API"],
+    "video":"/videos/walk-away.gif",
+    "FrontendDeploy":"https://walk-away.netlify.app/",
+    "FrontendGit":"https://github.com/avalen28/frontend-Walk-Away-app",
+    "BackendGit":"https://github.com/avalen28/backend-Walk-Away-app"
 }
 ]

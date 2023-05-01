@@ -12,7 +12,7 @@ const Home = () => {
           <div className="frontend-stack">
             <img src="/images/html-5.png" alt="html5" />
             <img src="/images/css3.png" alt="css3" />
-            <img src="/images/js.png" alt="javaScript" />
+            <img src="/images/javaScript.png" alt="javaScript" />
             <img src="/images/react.png" alt="react" />
             <img src="/images/hbs.png" alt="handlebars" />
           </div>
