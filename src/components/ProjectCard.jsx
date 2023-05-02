@@ -23,7 +23,7 @@ const ProjectCard = ({ project }) => {
         <h3>The stack used in this app was</h3>
         <div className="project-card-stack">
           {stack.map((elem, i) => (
-            <p key={elem[i]}>{elem}</p>
+            <img src={elem} alt="stack" key={elem[i]} />
           ))}
         </div>
       </div>
