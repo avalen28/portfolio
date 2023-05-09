@@ -20,12 +20,15 @@ const Home = () => {
             <img src="/images/express.png" alt="express.js" />
             <img src="/images/node.png" alt="node.js" />
             <img src="/images/mongoDB.png" alt="mongoDB" />
+            <img src="/images/sql.png" alt="sql" />
+            <img src="/images/postgresql.png" alt="postgresql" />
           </div>
           <div className="other-stack">
             <img src="/images/git.png" alt="Git" />
             <img src="/images/github.png" alt="github.js" />
             <img src="/images/postman.png" alt="postman" />
             <img src="/images/visualcode.png" alt="visualcode" />
+            <img src="/images/docker.png" alt="docker" />
           </div>
         </div>
       </div>
