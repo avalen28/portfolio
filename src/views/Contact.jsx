@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <h3>Contact with me</h3>
+      <h3>Contact me!</h3>
       <div className="contact-info">
         <img src="/images/linkedin.png" alt="LinkedIn" />
         <Link to={"https://www.linkedin.com/in/alberto-valenzuela-munoz/"}>
