@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -32,7 +33,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <img src="/images/Alberto.jpg" alt="" className="profile-img" />
+      <div className="img-container-and-cv">
+        <img src="/images/Alberto.jpg" alt="" className="profile-img" />
+        <Link
+          to={
+            "https://drive.google.com/file/d/1O56o66C98kWDIoYOqNXBdC0wsFq969ss/view?usp=share_link"
+          }
+        >
+          CV
+        </Link>
+      </div>
     </div>
   );
 };
