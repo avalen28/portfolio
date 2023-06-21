@@ -37,7 +37,7 @@ const Home = () => {
         <img src="/images/Alberto.jpg" alt="" className="profile-img" />
         <Link
           to={
-            "https://drive.google.com/file/d/1O56o66C98kWDIoYOqNXBdC0wsFq969ss/view?usp=share_link"
+            "https://drive.google.com/file/d/1RBA1GJ5LGwJ4Ii0JbFb4f9u7sWFpBLsO/view?usp=sharing"
           }
         >
           CV
